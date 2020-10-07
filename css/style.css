@@ -1,0 +1,390 @@
+@font-face {
+	 font-family: 'Futura';
+	 src: url('../fonts/FuturaPT-Book.woff2') format('woff2'),
+		  url('../fonts/FuturaPT-Book.woff') format('woff');
+	 font-weight: normal;
+	 font-style: normal;
+	 font-display: swap;
+}
+@font-face {
+	 font-family: 'Gilroy';
+	 src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+		  url('../fonts/Gilroy-Medium.woff') format('woff');
+	 font-weight: 500;
+	 font-style: normal;
+	 font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing:border-box;
+}
+
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+
+html,
+body{
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+	font-family: "Poppins";
+}
+/* -------------- */
+
+.wrapper{
+	overflow: hidden;
+	min-height: 100%;
+}
+.header {
+		
+}
+.headercontainer{
+	min-height: 591px;
+	max-width: 1310px;
+	margin: 0 auto;
+	padding: 25px 0 161px 0 ;
+	background: url("../img/bgheader.png") right no-repeat;
+}
+.container {
+	max-width: 1113px;
+	margin: 0 auto;
+
+}
+
+.logo {
+	display: inline-block;
+}
+.logo img{
+	margin: -16px 0 0 0;
+}
+.menu {
+	display: inline-block;
+	font-size: 0;
+	margin: 16px 90px 16px 135px;
+}
+.menu li{
+	display: inline-block;
+	font-size: 16px;
+	margin: 0 40px 0 0;
+}
+.menu li:last-child{
+	margin: 0 0 0 0;
+}
+.menu li:hover{
+	text-decoration: underline;
+}
+.menulink {
+	color: #00293F;
+	font-family: "Futura";
+}
+.contactus {
+	display: inline-block;
+	vertical-align: top;
+}
+.btn {
+	display: inline-block;
+	color: white;
+	font-family: "Gilroy";
+	font-size: 16px;
+	height: 44px;
+	width: 160px;
+	background-color: #70C851;
+	border-radius: 3px;
+	padding: 12px 5px 10px 25px;
+}
+.btn span{
+	background: url("../img/arrow1.png") right no-repeat;
+	padding: 0 30px 0 0;
+	display: inline-block;
+}
+.btn:hover{
+	box-shadow: -2px -2px 6px #457a3286;
+
+ }
+.headermain{
+}
+.headermain h1{
+	font-size: 40px;
+	color: #182C51;
+	margin: 130px 0 0 0;
+	line-height: 60px;
+}
+.headermain h2{
+	font-size: 40px;
+	font-weight: 600;
+	color: #182C51;
+	line-height: 60px;
+}
+.btnstart {
+	margin: 53px 0 0 0;
+}
+.btn2 {
+	display: inline-block;
+	color: white;
+	font-family: "Poppins";
+	font-size: 16px;
+	height: 50px;
+	width: 169px;
+	background-color: #70C851;
+	border-radius: 3px;
+	padding: 17px 40px;
+}
+.btn2:hover{
+	box-shadow: -2px -2px 6px #457a3286;
+	color: #182C51;
+}
+
+.main {
+	max-height: 256px;
+	background-color: #F8F8F8;
+	padding: 50px 0 50px 0;
+}
+
+.info {
+	max-width: 730px;
+	display: inline-block;
+	line-height: 1.5;
+}
+.info h3{
+	font-weight: 600;
+	font-size: 28px;
+	margin: 0 0 25px 0;
+	color: #00293F;
+}
+.info p{
+	font-size: 16px;
+	color: #5A5A5A;
+}
+.list {
+	display: inline-block;
+	margin: 0 0 0 125px;
+}
+.list li{
+	margin: 0 0 38px 0;
+	
+}
+.list li::before{
+	content: "";
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	background-color: #70C851;
+	margin: 0 9px 0 0;
+}
+
+.listlink {
+	font-family: "Gilroy";
+	font-size: 18px;
+	color: #182C51;
+}
+.listlink:hover{
+	color: #70C851;
+	text-decoration: underline;
+}
+
+
+/* ------------------------------------------------------------ */
+
+.block {
+	max-height: 556px;
+	padding: 20px 0 20px 0;
+}
+.title {
+	margin: 30px 0 30px 0;
+}
+.title h3{
+	font-size: 40px;
+	font-weight: 800;
+	color: #182C51;
+}
+.block1 {
+}
+.block2{
+	display: inline-block;
+	max-width: 385px;
+	margin: 0 0 0 30px;
+	line-height: 1.5;
+}
+.block2 h4{
+	font-size: 28px;
+	font-weight: 600;
+	color: #00293F;
+	margin: 0 0 20px 0;
+}
+.block2 h4:hover{
+	text-decoration: underline;
+}
+.mobile {
+	margin: 9px 0 0 0;
+}
+
+.mobilapp {
+	font-size: 14px;
+	font-weight: 600;
+	color: #5A5A5A;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+}
+.text {
+	font-size: 16px;
+	color: #5A5A5A;
+	margin: 0 0 20px 0;
+}
+
+.calendar {
+	display: inline-block;
+	margin: 0 30px 0 0;
+}
+.calendar a{
+	font-size: 13px;
+	color: #5A5A5A;
+}
+.calendar::before{
+	content: "";
+	background: url("../img/icon.svg") center no-repeat;
+	display: inline-block;
+	width: 15px;
+	height: 16px;
+	margin: 0 6px -3px 0;
+}
+.calendar::before:hover{
+
+}
+.eye {
+	display: inline-block;
+	margin: 0 30px 0 0;
+}
+.eye a{
+	font-size: 13px;
+	color: #5A5A5A;
+}
+.eye::before{
+	content: "";
+	background: url("../img/icon1.svg") center no-repeat;
+	display: inline-block;
+	width: 18px;
+	height: 14px;
+	margin: 0 6px -2px 0;
+}
+.comments {
+	display: inline-block;
+}
+.comments a{
+	font-size: 13px;
+	color: #5A5A5A;
+}
+.comments::before{
+	content: "";
+	background: url("../img/icon2.svg") center no-repeat;
+	display: inline-block;
+	width: 18px;
+	height: 16px;
+	margin: 0 6px -2px 0;
+}
+
+.blocktouch {
+	min-height: 548px;
+	padding: 60px 0 0 0;
+}
+.bg {
+	background: url("../img/image9.png") right no-repeat;
+	max-width: 1115px;
+	min-height: 548px;
+	margin: 0 auto;
+}
+.getblock{
+	line-height: 1.5;
+	max-width: 585px;
+}
+.getblock h3 {
+	font-size: 28px;
+	font-weight: 600;
+	color: #00293F;
+	margin: 0 0 28px 0;
+}
+.getblock p{
+	font-size: 16px;
+	color: #5A5A5A;
+	margin: 0 0 60px 0;
+}
+.blockinfo {
+	max-width: 340px;
+}
+.adress {
+	margin: 0 0 50px 0;
+}
+.adress a{
+	padding: 0 0 0 70px;
+}
+.adress::before{
+	content: "";
+	background: url("../img/room.svg") left no-repeat;
+	height: 60px;
+	width: 60px;
+	margin: 0 0px -64px 0;
+	display: inline-block;
+}
+
+.info {
+	font-size: 16px;
+	font-weight: 500;
+	color: #000000;
+	display: inline-block;
+	vertical-align: top;
+}
+.info:hover{
+	text-decoration: underline;
+}
+.phone {
+}
+.phone, .email a{
+	margin: 0 0 0 10px;
+}
+.phone::before{
+	content: "";
+	background: url("../img/phone.png") left no-repeat;
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	margin: -10px 0 0px 0;
+}
+.email {
+	margin: 50px 0 0 0;
+}
+.email::before{
+	content: "";
+	background: url("../img/email.png") left no-repeat;
+	height: 60px;
+	width: 60px;
+	display: inline-block;
+	margin: -15px 0 0px 0;
+}
+/* ----------------------------------------------- */
